@@ -1,0 +1,22 @@
+*{margin:0;padding: 0}
+button{
+    border:none;
+    font-size: 16px;
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.window{
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.images{
+    display: flex;
+    transition: all 1s;
+}
+.images>img{
+    width:100%;
+}
